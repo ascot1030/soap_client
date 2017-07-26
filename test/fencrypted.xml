@@ -1,0 +1,45 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://hcv.health.ontario.ca/" xmlns:tns="http://ebs.health.ontario.ca/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SOAP-ENV:Header>
+		<wsse:Security mustUnderstand="true">
+			<wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="id-e3ad1195-878e-4ffb-a750-211decc25c98">MIIDnTCCAoWgAwIBAgIJALrTsNBB9CX0MA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAkNBMRAwDgYDVQQIDAdPbnRhcmlvMRAwDgYDVQQHDAdUb3JvbnRvMRIwEAYDVQQKDAlEb25pcyBJTkMxDjAMBgNVBAsMBUFsZXJhMQ4wDAYDVQQDDAVBbGVyYTAeFw0xNzA3MTMyMTI1MDVaFw0xNzA4MTIyMTI1MDVaMGUxCzAJBgNVBAYTAkNBMRAwDgYDVQQIDAdPbnRhcmlvMRAwDgYDVQQHDAdUb3JvbnRvMRIwEAYDVQQKDAlEb25pcyBJTkMxDjAMBgNVBAsMBUFsZXJhMQ4wDAYDVQQDDAVBbGVyYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALNr8zCbuq8k7IpopnJAwI2XeYrqweYhgOLgDSHC/UCWVq3Ew8LqtCM+aKAzwco6DVCWJ5y3AIISbSw1WMP6FSLdCKaME4AOE0oTYUaREzHe+/jgy75HcWr1JWccajnK2T/mXO3Mno7hI4wGOZ2G5tMQKd2BseSMj91ECSCdfCHBit89nFaDhJMxVKYj4QEUJ3ov7q1xEejnlQHuNNvw71LL4jCqPjXeBAW5gVO9Dq6DL4Mfdtumuar9mEACIUgtvXywzaGMCCh/CyMFXDvVfE1+m3EJ/F/bq5jQvbV7Vi7kk2sqSfQyxX4NudTgIrTrgqNAsZ1DLSh459hQtmMIu8cCAwEAAaNQME4wHQYDVR0OBBYEFM9BOORuAFZ+euI/0/D8JNXprJaQMB8GA1UdIwQYMBaAFM9BOORuAFZ+euI/0/D8JNXprJaQMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAI3LjujB5uDzlF1OH0mgIBTDNDEwjkGgohqm+/ruhdeDhaQy+Be5S0i8rGDW6LgGcyYVBSy6VhP8u9ZTFwzzVZIcajFM3WNmU1AZSlIcDIXMBqOiNV5hhroYDzwjDyICAF/LpMWdOwcTmjlyfFzBoe0mxI/76ETE259mf+ScrMisMsgVuCXNemz2xDi9nH8qIKN9d5vRXDhCmZnhhtA7fNuATlRWg7js5px6Kzv91GHE65QVaWc4VRoqUq+W4HJgPL2+uFUhoyfaQzfXPcUP1UfUxUckyJqNXiU3fzphqYpUqR2Fnqygs44H0NvIrHIIRt8lVb8A0/9uKSNU3NC6NaY=</wsse:BinarySecurityToken><xenc:EncryptedKey xmlns:xenc="http://www.w3.org/2001/04/xmlenc#">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><wsse:SecurityTokenReference wsse:TokenType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"><wsse:Reference ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" URI="#id-e3ad1195-878e-4ffb-a750-211decc25c98"/></wsse:SecurityTokenReference></ds:KeyInfo><xenc:CipherData>
+<xenc:CipherValue>G661YDTeJUTwpjMPYJd4IwS25sixB+CDH8oopcYGEKBjcyaNQyxkLacHHSr3VCUq
+ON9BOe1bEUuMOjfv23DJYnrBLmY92+RbL0ZL5mXn180PDsv4gi44rj/TOiLXSRrV
+haGtZc0i0tpVmE3UEjwFDhTflwG05bW93MBThEO9RO30xPoyC9gMN7s7neuu3pyx
+AMxlFI8h+FkBzRd4rJy6AbLlALdqfWFbZrr8aal2B6lS5HcvPN6PgZg8e58yFhAq
+64/lTyW8N4fK/wR98T8j6XL6vHotJUJH0mcPX/NomX9et8fR7ZdZ8lQ7pVll/oux
+eo3Ac5FHrZxgjpL5/fZbLw==</xenc:CipherValue>
+</xenc:CipherData>
+<xenc:ReferenceList><xenc:DataReference URI="#id-a471be36-af24-4bad-8a6f-ea8693f09bba"/></xenc:ReferenceList></xenc:EncryptedKey>
+<wsse:UsernameToken>
+				<wsse:Username>confsu312@yandex.com</wsse:Username>
+				<wsse:Password>Password0!</wsse:Password>
+			</wsse:UsernameToken>
+			<wsu:Timestamp>
+				<wsu:Created>2017-07-18T01:32:47.577170+00:00</wsu:Created>
+				<wsu:Expires>2017-07-18T01:34:17.577170+00:00</wsu:Expires>
+			</wsu:Timestamp>
+		</wsse:Security>
+		<tns:EBS>
+			<SoftwareConformanceKey>46d55090-dda5-4747-b04f-8b2e36492ca6</SoftwareConformanceKey>
+			<AuditId>d7c2ec09-5615-40fc-b4f8-01bc9e3502d8</AuditId>
+		</tns:EBS>
+		<tns:MSA xmlns:tns="http://msa.ebs.health.ontario.ca/"/>
+		<tns:IDP xmlns:tns="http://idp.ebs.health.ontario.ca/">
+			<ServiceUserMUID>432200</ServiceUserMUID>
+		</tns:IDP>
+	</SOAP-ENV:Header>
+	<ns0:Body>
+		<xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" Type="http://www.w3.org/2001/04/xmlenc#Element" wsu:Id="id-a471be36-af24-4bad-8a6f-ea8693f09bba">
+<xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+<xenc:CipherData>
+<xenc:CipherValue>YL1X92nyzZNTGo/xnuxMP9+D/dgN2BiNoMs2e9DMiQqKuYYJK3T8n04LI2BF9wmn
+SkEN3BvjC1WLMt1H+WNS9avdHhKU44X3KEv/PAY2VzzGb6yzuMxXgFbCeXwV3UYM
+5Nu1chi8ZTCaMcqE30CL+Bbrago8RTxFBqBvts65mMdDc/bLElRwoQFZPHQl9W2g
+2Gf29GeOEhxyeLeRBBiaFHS+wqWz6v8115FBM/hBXKdtXNxAUcGGkoLXSwUz/FM7
+Oyjyhukt+fNPRzsyi6S2TA==</xenc:CipherValue>
+</xenc:CipherData>
+</xenc:EncryptedData>
+	</ns0:Body>
+</SOAP-ENV:Envelope>
